@@ -11,13 +11,13 @@ html {
   grid-gap: 5px;
 }
 
-.link-grid-container {
+.link-grid-container { /* WIP */
   display: grid;
   /* grid-column-gap: 25px;
   grid-row-gap: 10px; */
   grid-gap: 8px;
   padding: 0px; /* parent has all the padding already */
-  /* grid-template-columns: "lk lk lk lk"; */
+  grid-template-columns: "lk" "lk" "lk" "lk";
 }
 
 .link-in-grid{
@@ -52,4 +52,13 @@ html {
   background-color: #b0cccc;
   /* grid-column: 2 4;
   grid-row: 2 4; */
+}
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template: 'tb' 'qw' 'ct' 'ct' 'ct';
+    /* grid-column-gap: 25px;
+    grid-row-gap: 10px; */
+    grid-gap: 5px;
+  }
 }

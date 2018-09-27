@@ -5,19 +5,21 @@ html {
 
 .grid-container {
   display: grid;
-  grid-template: 'tb tb tb tb' 'qw ct ct ct' 'qw ct ct ct' 'qw ct ct ct';
-  /* grid-column-gap: 25px;
-  grid-row-gap: 10px; */
+  grid-template: 'tb tb tb tb' 'qw ct ct ct' 'qw ct ct ct' 'qq ct ct ct';
   grid-gap: 5px;
 }
 
+.extra {
+  background-color: gold;
+  padding: 12px;
+  grid-area: qq;
+}
+
 .link-grid-container { /* WIP */
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   display: grid;
-  /* grid-column-gap: 25px;
-  grid-row-gap: 10px; */
   grid-gap: 8px;
   padding: 0px; /* parent has all the padding already */
-  grid-template-columns: "lk" "lk" "lk" "lk";
 }
 
 .link-in-grid{
@@ -31,17 +33,13 @@ html {
 .titlebar {
   grid-area: tb;
   background-color: #7777FF;
-  /* grid-column: 1 4;
-  grid-row: 1 2; */
-  /* border: 5px solid rbga(0,1,1,1) seems to do nothing */
-  /* font-size: 0px; seems to do nothing */
   padding: 0px;
   text-align: center;
 }
 
 .overview {
   grid-area: qw;
-  background-color: #00ffff;
+  background-color: #eeeeff;
   /* grid-column: 1 2;
   grid-row: 2 4; */
 }
@@ -50,15 +48,17 @@ html {
   grid-area: ct;
   padding: 5px;
   background-color: #b0cccc;
-  /* grid-column: 2 4;
-  grid-row: 2 4; */
 }
 @media only screen and (max-width: 768px) {
   .grid-container {
     display: grid;
-    grid-template: 'tb' 'qw' 'ct' 'ct' 'ct';
-    /* grid-column-gap: 25px;
-    grid-row-gap: 10px; */
+    grid-template: 'tb tb' 'qw qw' 'qq qq' 'ct ct' 'ct ct' 'ct ct';
     grid-gap: 5px;
+  }
+  .link-grid-container { /* WIP */
+    display: grid;
+    grid-gap: 2px;
+    padding: 0px; /* parent has all the padding already */
+    grid-template-columns: 70px;
   }
 }

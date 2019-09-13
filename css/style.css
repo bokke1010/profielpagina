@@ -7,7 +7,7 @@ html {
   display: grid;
   grid-template: 'tb tb tb tb' 'qw ct ct ct' 'qw ct ct ct' 'qq ct ct ct';
   grid-gap: 5px;
-  max-width: 80%;
+  width: 80%;
   align: center;
   margin: auto;
 }

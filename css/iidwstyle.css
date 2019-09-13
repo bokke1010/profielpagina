@@ -1,7 +1,7 @@
 .extra {
   background-color: orange;
   color: silver;
-  letter-spacing: 20px;
+  letter-spacing: 1em;
   text-decoration: line-through;
 }
 
@@ -12,9 +12,34 @@
 }
 
 .ictModules {
-  padding: 4px;
+  padding: 0em;
+}
+
+.ictModule{
+  background-color: white;
+  padding: 1vh;
+  margin-bottom: 3vh;
+  border-radius: .5em;
 }
 
 .ictProjects {
-  padding: 4px;
+  padding: 0em;
+}
+
+.ictProject{
+  background-color: white;
+  padding: 1vh;
+  margin-bottom: 3vh;
+}
+
+.smallImage{
+  max-width: 4em;
+  max-height: 4em;
+  padding: 2px;
+}
+
+.logo{
+  max-width: 2em;
+  max-height: 2em;
+  padding: 0px;
 }

@@ -1,70 +1,20 @@
-html {
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
-}
-
-.grid-container {
-  display: grid;
-  grid-template: 'tb tb tb tb' 'qw ct ct ct' 'qw ct ct ct' 'qq ct ct ct';
-  grid-gap: 5px;
-  max-width: 80%;
-  align: center;
-  margin: auto;
-}
-
 .extra {
-  background-color: gold;
-  padding: 12px;
-  grid-area: qq;
-}
-
-.link-grid-container { /* WIP */
-
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  display: grid;
-  grid-gap: 8px;
-  /* padding: 0px; /* parent has all the padding already */
+  background-color: orange;
+  color: silver;
+  letter-spacing: 20px;
+  text-decoration: line-through;
 }
 
 .link-in-grid{
-  background-color: white;
-  /* grid-area: lk; */
-  text-align: left;
-  padding: 5px;
-  color: black;
-}
-
-.titlebar {
-  grid-area: tb;
-  background-color: #7777FF;
-  padding: 0px;
+  background-color: silver;
   text-align: center;
+  color: gold;
 }
 
-.overview {
-  grid-area: qw;
-  background-color: #eeeeff;
-  /* grid-column: 1 2;
-  grid-row: 2 4; */
+.ictModules {
+  padding: 4px;
 }
 
-.content {
-  grid-area: ct;
-  padding: 5px;
-  background-color: #b0cccc;
-}
-@media only screen and (max-width: 768px) {
-  .grid-container {
-    display: grid;
-    grid-template: 'tb tb' 'qw qw' 'qq qq' 'ct ct' 'ct ct' 'ct ct';
-    grid-gap: 5px;
-  }
-  .link-grid-container { /* WIP */
-    display: grid;
-    grid-gap: 2px;
-    padding: 0px; /* parent has all the padding already */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: 70px; */
-  }
+.ictProjects {
+  padding: 4px;
 }

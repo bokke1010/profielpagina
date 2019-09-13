@@ -12,18 +12,6 @@ html {
   margin: auto;
 }
 
-.advertisement {
-  text-align: center;
-  color:black;
-}
-
-.indexTitle {
-  background-color:purple;
-  color:lime;padding:6px;
-  text-align:center;
-  border-radius:15px;
-}
-
 .extra {
   background-color: gold;
   padding: 12px;
@@ -57,7 +45,6 @@ html {
 .overview {
   grid-area: qw;
   background-color: #eeeeff;
-  padding: 9px;
   /* grid-column: 1 2;
   grid-row: 2 4; */
 }

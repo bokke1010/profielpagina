@@ -73,6 +73,7 @@ html {
     display: grid;
     grid-template: 'tb tb' 'qw qw' 'qq qq' 'ct ct' 'ct ct' 'ct ct';
     grid-gap: 5px;
+    width: 95%;
   }
   .link-grid-container { /* WIP */
     display: grid;

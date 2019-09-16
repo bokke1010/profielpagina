@@ -15,21 +15,30 @@
   padding: 0em;
 }
 
-.ictModule{
+.ictModules ul li details div{
+  padding: 1vh;
+}
+
+.ictModules ul li details{
+  margin-bottom: 3vh;
+  border-radius: 1em;
+  background-color: #E7EEEE;
+}
+
+.ictModules ul li details summary{
   background-color: white;
   padding: 1vh;
-  margin-bottom: 3vh;
   border-radius: .5em;
 }
 
-.ictProjects {
-  padding: 0em;
+.ictModules ul {
+  list-style: none;
+  padding-left: 1em;
 }
-
-.ictProject{
-  background-color: white;
-  padding: 1vh;
-  margin-bottom: 3vh;
+@media only screen and (max-width: 768px) {
+  .ictModules ul {
+    padding-left: 0;
+  }
 }
 
 .smallImage{
@@ -42,4 +51,8 @@
   max-width: 2em;
   max-height: 2em;
   padding: 0px;
+}
+
+details:hover{
+  background-color: lightblue;
 }

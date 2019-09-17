@@ -68,7 +68,7 @@ html {
   padding: 5px;
   background-color: #b0cccc;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 8cm) {
   .grid-container {
     display: grid;
     grid-template: 'tb tb' 'qw qw' 'qq qq' 'ct ct' 'ct ct' 'ct ct';

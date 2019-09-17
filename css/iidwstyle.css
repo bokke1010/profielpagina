@@ -21,7 +21,7 @@
 
 .ictModules ul li details{
   margin-bottom: 3vh;
-  border-radius: 1em;
+  border-radius: .5em;
   background-color: #E7EEEE;
 }
 
@@ -35,7 +35,7 @@
   list-style: none;
   padding-left: 1em;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 8cm) {
   .ictModules ul {
     padding-left: 0;
   }

@@ -8,7 +8,12 @@
 .link-in-grid{
   background-color: silver;
   text-align: center;
-  color: gold;
+  color: black;
+  border-radius: 0.5vw;
+}
+
+a {
+  text-decoration: none;
 }
 
 .ictModules {
@@ -16,18 +21,18 @@
 }
 
 .ictModules ul li details div{
-  padding: 1vh;
+  padding: 1vw;
 }
 
 .ictModules ul li details{
-  margin-bottom: 3vh;
+  margin-bottom: 2vw;
   border-radius: .5em;
   background-color: #E7EEEE;
 }
 
 .ictModules ul li details summary{
   background-color: white;
-  padding: 1vh;
+  padding: 1vw;
   border-radius: .5em;
 }
 
@@ -44,13 +49,13 @@
 .smallImage{
   max-width: 4em;
   max-height: 4em;
-  padding: 2px;
+  padding: 0.5vw;
 }
 
 .logo{
   max-width: 2em;
   max-height: 2em;
-  padding: 0px;
+  padding: 0;
 }
 
 details:hover{

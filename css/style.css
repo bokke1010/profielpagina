@@ -8,7 +8,7 @@ html {
   grid-template: 'tb tb tb tb' 'qw ct ct ct' 'ex ct ct ct' 'qq ct ct ct';
   grid-template-rows: auto;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 1vw;
+  grid-gap: 0.5vw;
   width: 80%;
   align: center;
   margin: auto;
@@ -25,10 +25,12 @@ html {
 }
 
 .indexTitle {
-  background-color:purple;
-  color:lime;padding:6px;
-  text-align:center;
-  border-radius:15px;
+  background-color: gold;
+  color: black;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  text-align: center;
+  margin-bottom: 1vw;
 }
 
 .extra {

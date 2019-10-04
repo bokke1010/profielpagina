@@ -36,13 +36,20 @@ a {
   border-radius: .5em;
 }
 
+.itemList > li:not(:last-child) {
+  margin-bottom: 1vw;
+}
+
+.itemList {
+  padding-left: .4em;
+}
+
 .filler {
   background-image: url("p.png");
   background-position: center;
 }
 
-.ictModules ul {
-  list-style: none;
+.ictModules > ul {
   padding-left: 1em;
 }
 @media only screen and (max-width: 768px), (orientation: portrait) {

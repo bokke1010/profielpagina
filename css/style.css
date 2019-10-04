@@ -74,6 +74,11 @@ html {
   padding: 1vw;
   background-color: #b0cccc;
 }
+
+ul {
+  list-style: none;
+}
+
 @media only screen and (max-width: 768px), (orientation: portrait) {
   .grid-container {
     display: grid;

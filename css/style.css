@@ -6,7 +6,7 @@ html {
 .grid-container {
   display: grid;
   grid-template: 'tb tb tb tb' 'qw ct ct ct' 'ex ct ct ct' 'qq ct ct ct';
-  grid-template-rows: auto;
+  grid-template-rows: 0fr 0fr 1fr 0fr;
   grid-template-columns: 25% 25% 25% 25%;
   grid-gap: 0.5vw;
   width: 80%;

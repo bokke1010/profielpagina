@@ -36,6 +36,11 @@ a {
   border-radius: .5em;
 }
 
+.filler {
+  background-image: url("p.png");
+  background-position: center;
+}
+
 .ictModules ul {
   list-style: none;
   padding-left: 1em;

@@ -24,13 +24,19 @@ html {
   background-color: gray;
 }
 
-.indexTitle {
-  background-color: gold;
+.text-in-grid {
   color: black;
-  padding: 1vw;
-  border-radius: 0.5vw;
   text-align: center;
+  background-color: cyan;
+  padding: 0.5vw;
+  border-radius: 1vw;
   margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .extra {
@@ -41,19 +47,19 @@ html {
 
 .link-grid-container { /* WIP */
 
+  display: grid;
   grid-template-rows: auto;
   grid-template-columns: auto;
-  display: grid;
   grid-gap: 0.5vw;
   /* padding: 0px; /* parent has all the padding already */
 }
 
 .link-in-grid{
-  background-color: white;
-  /* grid-area: lk; */
-  text-align: left;
-  padding: 0.5vw;
   color: black;
+  text-align: center;
+  background-color: silver;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
 }
 
 .titlebar {
@@ -79,18 +85,17 @@ ul {
   list-style: none;
 }
 
+.detail {
+  background-color: lime;
+}
+
 @media only screen and (max-width: 768px), (orientation: portrait) {
   .grid-container {
-    display: grid;
     grid-template: 'tb tb' 'qw qw' 'ct ct' 'ct ct' 'ct ct' 'qq qq';
-    grid-gap: 1vw;
     width: 95%;
   }
-  .link-grid-container { /* WIP */
-    display: grid;
-    grid-gap: 1vw;
-    padding: 0px; /* parent has all the padding already */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: 70px; */
+  .link-grid-container {
+    grid-row: auto;
+    grid-column: auto;
   }
 }

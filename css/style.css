@@ -1,6 +1,6 @@
 html {
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
+  font-family: "Roboto", sans-serif;
+  background-color: #EEEEEE;
 }
 
 .grid-container {
@@ -8,7 +8,7 @@ html {
   grid-template: 'tb tb tb tb' 'qw ct ct ct' 'ex ct ct ct' 'qq ct ct ct';
   grid-template-rows: 0fr 0fr 1fr 0fr;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 0.8vh;
+  grid-gap: 0.4vh;
   width: 80%;
   align: center;
   margin: auto;
@@ -40,7 +40,7 @@ a {
 }
 
 .extra {
-  background-color: black;
+  background-color: white;
   text-align: center;
   padding: 3vw;
   grid-area: qq;
@@ -68,6 +68,7 @@ a {
   background-color: #7777FF;
   padding: 0px;
   text-align: center;
+  border-radius: 1em;
 }
 
 .overview {
@@ -79,7 +80,7 @@ a {
 .content {
   grid-area: ct;
   padding: 1vw;
-  background-color: #bbbbbb;
+  background-color: white;
 }
 
 ul {

@@ -14,25 +14,30 @@ a {
 .ictModules summary{
   background-color: lightgray;
   padding: 1vw;
-  border-radius: .5em;
+  border-radius: .4em;
 }
 
 .ictModules details {
-  margin-left: 0.5em;
-  border-left-color: gold;
-  border-left-width: 2px;
-  border-left-style: solid;
+  border-color: cyan;
+  border-width: 2px;
+  border-top-width: 0px;
+  border-style: solid;
   border-radius: .5em;
 }
 
-.ictModules details > summary:hover, .ictModules details[open] > summary{
-  background-color: gray;
+.ictModules details > summary:hover{
+  background-color: #BABABA;
+}
+.ictModules details[open] {
+  border-color: PaleGoldenRod;
+}
+.ictModules details[open] > summary{
+  background-color: #BFBFBF;
 }
 
 .ictModules li {
-  margin-bottom: 2vh;
-  margin-top: : 2vh;
   border-radius: .5em;
+  margin: 0.3em;
 }
 
 .ictModules  ul {
@@ -60,4 +65,19 @@ a {
   max-width: 2em;
   max-height: 2em;
   padding: 0;
+}
+
+table, th, td {
+  border-style: none;
+  background-color: silver;
+  padding: .3em;
+  border-width: 0;
+  border-collapse: collapse;
+  border-radius: .3em;
+  float: right;
+  text-decoration: none;
+  border-spacing: 3px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: inherit;
 }

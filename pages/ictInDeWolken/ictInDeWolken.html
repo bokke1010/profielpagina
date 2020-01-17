@@ -37,13 +37,33 @@
         </div>
       </nav>
       <div class="extra">
-        WIP
+        TEKST
       </div>
       <div class="filler">
       </div>
       <article class="content">
         <div class="ictModules">
-          Hier komen de modules
+          Hier komen de modules.
+          <table>
+            <th>
+              <a href="#" target="_self" onclick="
+              var details = document.getElementsByTagName('details');
+              Array.from(details).forEach(function(obj, idx) {
+                obj.open = true;
+              });">
+              Expand
+              </a>
+            </th>
+            <th>
+              <a href="#" target="_self" onclick="
+              var details = document.getElementsByTagName('details');
+              Array.from(details).forEach(function(obj, idx) {
+                obj.open = false;
+              });">
+              Collapse
+              </a>
+            </th>
+          </table>
           <ul>
             <li>
               <details>

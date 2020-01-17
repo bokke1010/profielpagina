@@ -1,33 +1,46 @@
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration: underline;
+}
+
+.content {
+  background-color: white;
 }
 
 .ictModules {
   padding: 0em;
 }
 
-.ictModules ul li details div{
+.spacer, .ictModules details > div {
   padding: 1vw;
 }
 
-.ictModules ul li details{
-  margin-bottom: 2vw;
-  border-radius: .5em;
-  background-color: #E7EEEE;
-}
-
-.ictModules ul li details summary{
-  background-color: white;
+.ictModules summary{
+  background-color: lightgray;
   padding: 1vw;
   border-radius: .5em;
 }
 
-.itemList > li:not(:last-child) {
-  margin-bottom: 1vw;
+.ictModules details {
+  margin-left: 0.5em;
+  border-left-color: gold;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-radius: .5em;
 }
 
-.itemList {
-  padding-left: .4em;
+.ictModules details > summary:hover, .ictModules details[open] > summary{
+  background-color: gray;
+}
+
+.ictModules li {
+  margin-bottom: 2vh;
+  margin-top: : 2vh;
+  border-radius: .5em;
+}
+
+.ictModules  ul {
+  padding-left: 0;
 }
 
 .filler {
@@ -35,11 +48,8 @@ a {
   background-position: center;
 }
 
-.ictModules > ul {
-  padding-left: 1em;
-}
 @media only screen and (max-width: 768px), (orientation: portrait) {
-  .ictModules ul {
+  .ictModules > ul {
     padding-left: 0;
   }
 }
@@ -54,8 +64,4 @@ a {
   max-width: 2em;
   max-height: 2em;
   padding: 0;
-}
-
-.ictModules ul li details summary:hover, .ictModules ul li details[open] summary{
-  background-color: FFCCFF;
 }

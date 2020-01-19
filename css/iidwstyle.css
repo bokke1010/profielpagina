@@ -8,27 +8,29 @@ a {
 }
 
 .spacer, .ictModules details > div {
-  padding: 1vw;
+  padding: .3em;
 }
 
 .ictModules summary{
   background-color: lightgray;
-  padding: 1vw;
+  padding: 1vh;
   border-radius: .4em;
 }
 
 .ictModules details {
   border-color: cyan;
-  border-width: 2px;
-  border-top-width: 0px;
+  border-width: 0px;
+  border-left-width: 2px;
   border-style: solid;
   border-radius: .5em;
+  padding: .2em;
 }
 
 .ictModules details > summary:hover{
   background-color: #BABABA;
 }
 .ictModules details[open] {
+  margin-bottom: 1em;
   border-color: PaleGoldenRod;
 }
 .ictModules details[open] > summary{
@@ -38,6 +40,7 @@ a {
 .ictModules li {
   border-radius: .5em;
   margin: 0.3em;
+  margin-right: 0;
 }
 
 .ictModules  ul {
@@ -58,7 +61,15 @@ a {
 .smallImage{
   max-width: 4em;
   max-height: 4em;
-  padding: 0.5vw;
+  padding: 0;
+}
+
+.largeImage{
+  max-width: 80%;
+  max-height: 80%;
+  padding: 0;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
 }
 
 .logo{

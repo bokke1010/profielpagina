@@ -39,8 +39,8 @@
       <div class="extra">
         TEKST
       </div>
-      <div class="filler">
-      </div>
+      <!-- <div class="filler"> -->
+      <!-- </div> -->
       <article class="content">
         <div class="ictModules">
           Hier komen de modules.
@@ -89,7 +89,8 @@
                         javascript-0
                       </summary>
                       <div>
-                        txt
+                        Gebruikt als basis voor Elm in de game die ik met Noah heb gemaakt. <br>
+                        Verder voor verschillende kleine projecten gebruikt in andere projecten.
                     </div>
                     </details>
                   </li>
@@ -114,6 +115,9 @@
                         Python is momenteel de taal waar ik het meeste ervaring mee heb.<br>
                         Door de jaren heen heb ik deze dan ook vaak gebruikt voor verschillende projecten. <br>
                         Afgelopen zomer heb ik hierin met pygame een spel gemaakt dat ik gebruik om mijn niveau te bewijzen. <br>
+                        In dit spel moet je als een wit balletje allemaal patronen ontwijken. <br>
+                        Al deze patronen bewegen volgens wiskundig gedefinieerde paden. <br>
+                        Deze berekeningen worden gebatched om het spel efficient te laten lopen. <br>
                         <a href="https://github.com/bokke1010/PyhtonDodgeGame/"> Mijn patroon-ontwijk-spel vind je hier. </a>
                       </div>
                     </details>
@@ -395,10 +399,14 @@
                         LoraWan
                       </summary>
                       <div>
-                        maken van een lora GPS tracker. <br>
-                        Github niet van toepassing, uitwerking vooral fysiek (code niet indrukwekkend) <br>
+                        maken van een lora GPS tracker samen met Marius. <br>
+                        Voor dit project moesten we met een arduino een Lora GPS tracker maken. <br>
+                        Hierbij moesten we zelf alle onderdelen aan elkaar solderen en uitproberen. <br>
+                        Hieronder ons resultaat: <br>
                         <img class="largeImage" src="IMG_20200119_155240.jpg"> <br>
-                        Problemen GPS en lora tegelijk, konden geen oplossing vinden
+                        Voor het eindspel moesten we vervolgens in het Oosterpark zo veel mogelijk gebieden claimen. <br>
+                        Wij hadden voor ons project problemen om de GPS en lora module tegelijk te laten werken. <br>
+                        Hier konden we samen met de begleiding geen oplossing voor vinden.
                       </div>
                     </details>
                   </li>
@@ -417,13 +425,23 @@
                         Netsblox
                       </summary>
                       <div>
-                        Schaakspel maken in Netsblox. <br>
+                        Multiplayer schaakspel maken in Netsblox. <br>
                         Lijkt een beetje op <s>scratch</s> snap. <br>
-                        Multiplayer <br>
                         Op tijd af, werkt redelijk goed <br>
                         Netsblox zelf is nogal instabiel en onbetrouwbaar, moest het vaak opnieuw opstarten <br>
-                        <img class="largeImage" src="netsblox1.png"> <br>
+                        <br>
+                        Hoe werkt het? <br>
+                        Tekenen spelstukken: <br>
+                        Serie punten met (x,y) coordinaten die met pen worden gevolgt<br>
+                        Formaat bord en spelstukken modulair <br>
                         <img class="largeImage" src="netsblox2.png"> <br>
+                        <br>
+                        Bewegen & multiplayer: <br>
+                        Game loop met cursor die in het bord je muis volgt. <br>
+                        Klik op een stuk om mogelijke zetten voor dat stuk te berekenen. <br>
+                        Elk stuk heeft zijn eigen functie om zetten uit te rekenen, waar mogelijk functies hergebruiken. <br>
+                        Na elke zet de huidige staat van het bord met de andere speler delen, dan is die aan de beurt. <br>
+                        <img class="largeImage" src="netsblox1.png"> <br>
                         <img class="largeImage" src="netsblox3.png"> <br>
                       </div>
                     </details>
